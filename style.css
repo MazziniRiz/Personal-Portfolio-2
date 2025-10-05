@@ -1,0 +1,68 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #E7F2EF;
+}
+
+.navbar{
+    width: 100%;
+    background-color: #A1C2BD;
+}
+
+.navbar_container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.navbar_name{
+    margin-left: 3%;
+}
+
+.navbar_links_container{
+    margin-left: 40%;
+    margin-top: 2%;
+}
+
+.navbar_links{
+    
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 10%;
+}
+
+#link{
+    list-style: none;
+    text-decoration: none;
+    margin: 20% 0;
+    font-size: larger;
+
+    
+}
+
+ul .navbar_obj{
+    display: inline;
+}
+
+.hero_section{
+    width: auto;
+    height: 100%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.left_section{
+    width: 55%;
+    margin: 2% 35%;
+    padding: 1.2% 2%;
+    background-color: #708993;
+}
+
+.right_section{
+    width: 55%;
+    padding: 1.2% 2%;
+    margin: 2% 0;
+    background-color: #19183B;
+    
+}
+
